@@ -1,0 +1,47 @@
+.corpodocadernoamarelo{
+    background-color: rgb(190, 190, 7);
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+}
+
+.titulocadernoamarelo h2 {
+
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding-top: 1px;
+}
+
+.estiloprovacadernoamarelo {
+
+    background-color: rgb(235, 235, 28);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 15px;
+
+}
+
+.estilolinkcadernoamarelo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(185, 185, 5);
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.estiloprovacadernoamarelo a{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.estiloprovacadernoamarelo a:hover{
+
+    background-color: yellow;
+    color: black;
+}

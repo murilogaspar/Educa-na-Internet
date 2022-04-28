@@ -1,0 +1,52 @@
+
+
+.corpodocadernolaranja{
+    background-color: #f39119;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+}
+.titulocadernolaranja h2 {
+
+      /*background-color: rgb(18, 18, 107);*/
+      color: white;
+      text-align: center;
+      margin: 10px;
+    padding-top: 1px;
+}
+
+.estiloprovacadernolaranja {
+    background-color: #c16a00;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.estilolinkcadernolaranja{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #f39119;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.estiloprovacadernolaranja a{
+
+    color: white;
+    margin: 10px;
+    padding: 10px;
+   
+    text-decoration: none;
+    
+}
+
+.estiloprovacadernolaranja a:hover{
+
+    background-color: #c16a00;
+   
+}
+

@@ -1,0 +1,53 @@
+/*--------------------- Configuração do Caderno Cinza  ---------------------------*/
+
+.corpodocadernocinza{
+
+    background-color: #757575;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+}
+.titulocadernocinza h2 {
+
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-top: 1px;
+}
+
+.estiloprovacadernocinza {
+
+    background-color: #c4c4c456;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.estilolinkcadernocinza{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #757575;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.estiloprovacadernocinza a{
+    
+    color: white;
+    
+    margin: 10px;
+    padding: 10px;
+   
+    text-decoration: none;
+}
+
+.estiloprovacadernocinza a:hover{
+
+    background-color:#9c9c9c;
+    color: white;
+   
+}

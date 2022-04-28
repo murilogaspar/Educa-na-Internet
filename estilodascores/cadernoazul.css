@@ -1,0 +1,53 @@
+.corpodocadernoazul{
+    background-color: rgb(18, 18, 107);
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+}
+
+
+.titulocadernoazul h2 {
+    
+    /*background-color: rgb(18, 18, 107);*/
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-top: 1px;
+   
+    
+}
+
+.estiloprovacadernoazul {
+
+    background-color:rgb(9, 9, 170);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.estilolinkcadernoazul{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(4, 4, 116);
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+
+
+.estiloprovacadernoazul a{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    
+
+}
+
+.estiloprovacadernoazul a:hover{
+
+    background-color: rgb(24, 24, 185);
+}

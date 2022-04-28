@@ -1,0 +1,49 @@
+/*--------------------- Configuração do Caderno Branco  ---------------------------*/
+
+.corpodocadernoverde{
+    background-color: #05703f;
+    margin: 10px 10px 10px 20px;
+    padding: 10px;
+    
+}
+.titulocadernoverde h2 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-top: 1px;
+}
+
+.estiloprovacadernoverde {
+    background-color: #37976a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.estilolinkcadernoverde{
+    display: flex;
+    flex-direction: row;
+    background-color: #05703f;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.estiloprovacadernoverde a{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.estiloprovacadernoverde a:hover{
+
+    background-color: #37976a;
+   
+}
+
+/*--------------------- Fim da Configuração do caderno Branco  ---------------------------*/
