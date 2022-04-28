@@ -1,0 +1,43 @@
+
+/* Essa é a Configuração da parte de cima titulo */
+.tituloprincipalenem h2{
+
+   background-color: teal;
+   color: white;
+   text-align: center;
+
+   margin: 10px;
+   padding: 10px;
+}
+
+/* Configurando a barra onde fica os anos (Links)*/
+
+.estilosanosenem{
+
+   background-color: black;
+
+   display: flex;
+
+   flex-direction: row;
+
+   justify-content: space-evenly;
+
+   margin: 2px ;
+
+   padding: 8px;
+
+}
+
+/* Configurando os  link que são os anos  */
+.estilosanosenem a{
+   color: white;
+   text-decoration: none;  
+}
+
+.estilosanosenem a:hover{
+
+   background-color: rgb(104, 97, 97);
+
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
