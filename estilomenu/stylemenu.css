@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(32, 32, 109);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    
+    background:rgb(24, 24, 87);
+    color: white;
+    
+    /*o primeiro é a vertical e a segunda pra afastar*/
+    padding: 0 15px;
+    height: 75px;
+    /*vai alinha dentro na nav */
+    display: flex;
+    /* alinhas os itens no centro  */
+    align-items: center;
+    /* vai colocar um espaço entre elas logo e menu */
+    justify-content: space-between;
+}
+
+/* toda propriedade vai afeta as duas */
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul.menu{
+    background-color: darkgoldenrod;
+    position: absolute;
+   /* altura do menu */
+    top:75px;
+    /* precisa fica no canto o menu */
+    left: 0;
+    right: 0;
+    padding: 15px;
+    text-align: right;
+    display: none;
+    flex-direction: column;
+}
+/* todo item menos o ultimo */
+nav ul.menu li:not(:last-child){
+     margin-bottom: 15px;
+}
+
+nav ul.button{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+nav ul.button:hover li {
+    background: #333;
+}
+
+
+ 
+nav ul.button li{
+
+    width: 100%;
+
+    height: 5px;
+
+    background: rosybrown;
+
+    border-radius: 3px;
+
+    transition: 0.3s;
+
+}
+
+
+
+@media(min-width: 700px){
+    nav ul.menu{
+        display: flex !important;
+        flex-direction: row;
+        position: relative;
+        top:0;
+        padding: 0;
+        background: none;
+
+    }
+
+    nav ul.menu li:not(:last-child){
+        margin-bottom: 0;
+        margin-right: 15px;
+   }
+
+   nav ul.button{
+       display: none;
+   }
+}
+
+
