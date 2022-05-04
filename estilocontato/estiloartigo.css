@@ -1,0 +1,9 @@
+.estiloartigo p{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+}
