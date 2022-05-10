@@ -1,9 +1,10 @@
 .estilofuturodosite{
-    background-color: black;
+    background-color:rgb(18, 18, 107);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    margin: 10px;
+    text-transform: capitalize;
+    margin: 40px;
+    padding: 30px;
 }
 
 .estiloconteudocontato li{
