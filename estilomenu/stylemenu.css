@@ -111,6 +111,68 @@ nav ul.button li{
    }
 }
 
+.titulodovideo{
+    background-color: chocolate;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    margin: 40px;
+}
+
+/* Conteudo da página principal */
+.titulodovideo h2{
+
+    margin: 20px;
+    text-align: center;
+}
+
+.textodovideo p{
+
+    background-color: rgba(0, 0, 255, 0.377);
+    color: white;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+.conteudovideo{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+
+    
+    /*justify-content: center;*/
+
+}
+
+.conteudovideo p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: inherit;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    
+
+}
+
+.conteudovideo video{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+/*------------------------------------------------------------*/
+
 /*footer{
     background-color: rgb(4, 4, 131);
     color: white;
