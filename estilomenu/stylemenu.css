@@ -57,6 +57,8 @@ nav ul.menu li:not(:last-child){
      margin-bottom: 15px;
 }
 
+/**/
+
 nav ul.button{
     height: 25px;
     width: 25px;
@@ -89,9 +91,10 @@ nav ul.button li{
 }
 
 
-
+/* quando a tela fica com 700px que é o famoso hd */
 @media(min-width: 700px){
     nav ul.menu{
+        /* de acordo com a regra criada do javascript quando estiver com o display flex é true */
         display: flex !important;
         flex-direction: row;
         position: relative;
@@ -100,16 +103,20 @@ nav ul.button li{
         background: none;
 
     }
-
+    /* Menu de computador */
     nav ul.menu li:not(:last-child){
         margin-bottom: 0;
         margin-right: 15px;
+        
    }
 
    nav ul.button{
        display: none;
+       
    }
 }
+/*------------------------o botão do menu responsivo---------------------------------- */
+
 
 .titulodovideo{
     background-color: chocolate;
@@ -119,6 +126,7 @@ nav ul.button li{
 
     margin: 40px;
 }
+
 
 /* Conteudo da página principal */
 .titulodovideo h2{
